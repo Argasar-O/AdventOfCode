@@ -1,4 +1,4 @@
-import {input} from "./input.js"
+import {input} from "./D02-input.js";
 
 let result = 0;
 

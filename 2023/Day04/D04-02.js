@@ -1,4 +1,4 @@
-import {input, inputE} from "./input.js";
+import {input, inputE} from "./D04-input.js";
 
 const games = input.split("\n");
 let result = 0;
@@ -13,7 +13,7 @@ games.forEach(game => {
 
     myNumbers.split(" ").forEach(number => {
         if (number.match(/[0-9]/g) && winningNumbers.split(" ").includes(number)) {
-            virtualCards[winCards] ? virtualCards[winCards]+= 1*virtualOrNotCards: virtualCards[winCards]=1*virtualOrNotCards;
+            virtualCards[winCards] ? virtualCards[winCards] += 1 * virtualOrNotCards : virtualCards[winCards] = 1 * virtualOrNotCards;
             winCards += 1;
         }
     })

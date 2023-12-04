@@ -1,9 +1,9 @@
-import {input} from "./input.js"
+import {input} from "./D01-Input.js";
 
-const numbers = {one: '1', two: '2', three: '3', four: '4', five: '5', six: '6', seven: '7', eight: '8', nine: '9' }
+const numbers = {one: '1', two: '2', three: '3', four: '4', five: '5', six: '6', seven: '7', eight: '8', nine: '9'};
 let result = 0;
 
-input.forEach(line => {
+input.split('\n').forEach(line => {
     let matched = line.match(/([0-9]|one|two|three|four|five|six|seven|eight|nine)/g);
     let first = matched[0].length > 1 ? numbers[matched[0]] : matched[0];
 

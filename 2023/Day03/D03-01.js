@@ -1,4 +1,4 @@
-import {input} from "./input.js"
+import {input} from "./D03-input.js"
 
 let result = 0;
 let array = input.split('\n');

@@ -97,10 +97,10 @@ Game 96: 1 green, 1 blue, 2 red; 1 red, 13 blue, 4 green; 3 red, 14 blue, 15 gre
 Game 97: 3 green, 7 red; 2 red, 3 green, 1 blue; 4 green, 1 blue, 4 red; 1 red
 Game 98: 9 blue, 8 red, 3 green; 10 blue, 3 red; 7 blue, 2 green, 7 red; 4 red, 11 blue, 3 green; 8 red, 9 blue, 2 green
 Game 99: 5 green, 8 blue; 3 blue, 4 red, 16 green; 1 green, 5 red, 6 blue
-Game 100: 6 blue, 9 green; 3 green, 6 blue; 5 blue, 1 red`
+Game 100: 6 blue, 9 green; 3 green, 6 blue; 5 blue, 1 red`;
 
 export const inputE = `Game 1: 3 blue, 4 red; 1 red, 2 green, 6 blue; 2 green
 Game 2: 1 blue, 2 green; 3 green, 4 blue, 1 red; 1 green, 1 blue
 Game 3: 8 green, 6 blue, 20 red; 5 blue, 4 red, 13 green; 5 green, 1 red
 Game 4: 1 green, 3 red, 6 blue; 3 green, 6 red; 3 green, 15 blue, 14 red
-Game 5: 6 red, 1 blue, 3 green; 2 blue, 1 red, 2 green`
+Game 5: 6 red, 1 blue, 3 green; 2 blue, 1 red, 2 green`;

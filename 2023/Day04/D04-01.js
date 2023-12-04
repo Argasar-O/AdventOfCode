@@ -1,4 +1,4 @@
-import {input, inputE} from "./input.js";
+import {input, inputE} from "./D04-input.js";
 
 const games = input.split("\n");
 let result = 0;
