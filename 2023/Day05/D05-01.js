@@ -8,6 +8,7 @@ categories.shift().split(': ')[1].split(' ').forEach(seedNumber => {
 
 categories.forEach(category => {
     const numbersLine = category.split("\n");
+    numbersLine.shift();
     tableSeeds.forEach(ts => ts[2] = false);
     numbersLine.forEach(numbersStr => {
         const numbers = numbersStr.split(" ").map(str => parseInt(str))
