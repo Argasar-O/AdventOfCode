@@ -1,5 +1,7 @@
 import {input, inputE} from "./D14-Input.js";
-import objectHash from "object-hash";
+
+const objectHash = val => JSON.stringify(val);
+
 
 let mappy = input.split("\n").map(line => line.split(""));
 const transpose = (array) => {
