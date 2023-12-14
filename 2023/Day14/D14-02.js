@@ -74,7 +74,7 @@ let loopSize = -1;
 let loopStartHash = -1;
 const values = [];
 
-for (let i = 0; i < 1000000; i++) {
+for (let i = 0; i < 10000000; i++) {
     for (const dir of ["N", "W", "S", "E"]) {
         mappy = goRollByDir(mappy, dir);
     }
